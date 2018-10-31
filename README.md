@@ -1,4 +1,4 @@
-# Winston@2 console formatter
+# Winston console formatter
 
 [![Build Status][travis-img]][travis-url]
 [![Code Coverage][codecov-img]][codecov-url]
@@ -16,7 +16,7 @@ This is custom config for default winston console transform.
 ## Usage - winson@3
 
 ```js
-const winson = require('winson');
+const winston = require('winston');
 const ConsoleFormatterMixin = require('winston-console-formatter/dist/mixin');
 var logger = winston.createLogger({
   transports: [ConsoleFormatterMixin(new winston.transports.Console())],
